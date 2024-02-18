@@ -1,0 +1,118 @@
+** ComfyUI startup time: 2024-02-18 19:26:02.158765
+[2024-02-18 19:26] ** Platform: Darwin
+[2024-02-18 19:26] ** Python version: 3.11.7 (main, Dec  4 2023, 18:10:11) [Clang 15.0.0 (clang-1500.1.0.2.5)]
+[2024-02-18 19:26] ** Python executable: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python
+[2024-02-18 19:26] ** Log path: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/comfyui.log
+[2024-02-18 19:26] 
+Prestartup times for custom nodes:
+[2024-02-18 19:26]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-02-18 19:26] 
+[2024-02-18 19:26] Total VRAM 32768 MB, total RAM 32768 MB
+[2024-02-18 19:26] Set vram state to: SHARED
+[2024-02-18 19:26] Device: mps
+[2024-02-18 19:26] VAE dtype: torch.float32
+[2024-02-18 19:26] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-02-18 19:26] ### Loading: ComfyUI-Manager (V2.7.2)
+[2024-02-18 19:26] ### ComfyUI Revision: 1973 [7f89cb48] | Released on '2024-02-14'
+[2024-02-18 19:26] Total VRAM 32768 MB, total RAM 32768 MB
+[2024-02-18 19:26] Set vram state to: SHARED
+[2024-02-18 19:26] Device: mps
+[2024-02-18 19:26] VAE dtype: torch.float32
+[2024-02-18 19:26] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.4.1-b9 in ComfyUI[0m
+[2024-02-18 19:26] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-02-18 19:26] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-02-18 19:26] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-02-18 19:26] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-02-18 19:26] Torch version: 2.2.0
+[2024-02-18 19:26] [34mWAS Node Suite: [0mBlenderNeko's Advanced CLIP Text Encode found, attempting to enable `CLIPTextEncode` support.[0m
+[2024-02-18 19:26] [34mWAS Node Suite: [0m`CLIPTextEncode (BlenderNeko Advanced + NSP)` node enabled under `WAS Suite/Conditioning` menu.[0m
+[2024-02-18 19:26] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-02-18 19:26] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-02-18 19:26] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m212[0m [32mnodes successfully.[0m
+[2024-02-18 19:26] 
+	[3m[93m"Believe you can and you're halfway there."[0m[3m - Theodore Roosevelt[0m
+[2024-02-18 19:26] 
+[36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-02-18 19:26] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-02-18 19:26] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-02-18 19:26] Current version of packaging: 23.2
+[2024-02-18 19:26] Version of cpuinfo: Version information not found
+[2024-02-18 19:26] Current version of git: 3.1.42
+[2024-02-18 19:26] Current version of moviepy: 1.0.3
+[2024-02-18 19:26] Current version of cv2: 4.7.0
+[2024-02-18 19:26] Current version of skbuild: 0.17.6
+[2024-02-18 19:26] Version of typing: Version information not found
+[2024-02-18 19:26] Current version of diskcache: 5.6.3
+[2024-02-18 19:26] Installing llama_cpp...
+[2024-02-18 19:26] Error while checking AVX2 support: 'flags'
+[2024-02-18 19:26] Python version: 311
+[2024-02-18 19:26] OS: Darwin
+[2024-02-18 19:26] OS bit: 64
+[2024-02-18 19:26] Platform tag: cp311-cp311-macosx_14_0_arm64
+[2024-02-18 19:26] Error while installing LLAMA: Command '['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', 'https://github.com/abetlen/llama-cpp-python/releases/download/v0.2.44/llama_cpp_python-0.2.44-cp311-cp311-macosx_14_0_arm64.whl']' returned non-zero exit status 1.
+[2024-02-18 19:26] Current version of timm: 0.9.12
+[2024-02-18 19:26] timm is already up-to-date with version 0.9.12
+[2024-02-18 19:26] Traceback (most recent call last):
+[2024-02-18 19:26]   File "/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-N-Nodes/__init__.py", line 69, in <module>
+    spec.loader.exec_module(module)
+[2024-02-18 19:26]   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+[2024-02-18 19:26]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[2024-02-18 19:26]   File "/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-N-Nodes/py/gptcpp_node.py", line 4, in <module>
+    from llama_cpp import Llama
+[2024-02-18 19:26] ModuleNotFoundError: No module named 'llama_cpp'
+[2024-02-18 19:26] [2024-02-18 19:26] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-02-18 19:26] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-02-18 19:26] 
+Import times for custom nodes:
+[2024-02-18 19:26]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI_ADV_CLIP_emb
+[2024-02-18 19:26]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-02-18 19:26]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/comfyui-animatediff
+[2024-02-18 19:26]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-02-18 19:26]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+[2024-02-18 19:26]    0.1 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-02-18 19:26]    0.1 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-AudioReactor
+[2024-02-18 19:26]    0.2 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-02-18 19:26]    0.3 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI_FizzNodes
+[2024-02-18 19:26]    0.4 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-02-18 19:26]    0.6 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-02-18 19:26]    0.6 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/comfyui-reactor-node
+[2024-02-18 19:26]    1.5 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-N-Nodes
+[2024-02-18 19:26] 
+[2024-02-18 19:26] Starting server
+[2024-02-18 19:26] 
+[2024-02-18 19:26] To see the GUI go to: http://127.0.0.1:8188
+[2024-02-18 19:30] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-02-18 19:31] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-02-18 19:31] Install model 'RestoreFormer' into '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/face_restore/RestoreFormer.pth'
+[2024-02-18 19:31] Downloading https://objects.githubusercontent.com/github-production-release-asset-2e65be/349321229/46507d70-d419-4464-8cb0-340f6581efbd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240218T103138Z&X-Amz-Expires=300&X-Amz-Signature=6f00ab245c3caa810b79b86b30246bca1ffbe64f63afc60d828543c0beb53826&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=349321229&response-content-disposition=attachment%3B%20filename%3DRestoreFormer.pth&response-content-type=application%2Foctet-stream to /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/face_restore/RestoreFormer.pth
+100%|████████████████████████████████████████████████████████████████▊| 289832960/290785322 [00:38<00:00, 10163960.15it/s]100%|██████████████████████████████████████████████████████████████████| 290785322/290785322 [00:38<00:00, 7607677.53it/s]
+[2024-02-18 19:32] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-02-18 19:32] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-02-18 19:33] Install model 'negative_hand Negative Embedding' into '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/embeddings/negative_hand-neg.pt'
+[2024-02-18 19:33] Installation was successful.
+[2024-02-18 19:33] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-02-18 19:33] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-02-18 19:33] Install model 'animatediff/v2_lora_PanLeft.ckpt (ComfyUI-AnimateDiff-Evolved) (Updated path)' into '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/animatediff_motion_lora/v2_lora_PanLeft.ckpt'
+[2024-02-18 19:33] Downloading https://cdn-lfs.huggingface.co/repos/80/a9/80a9efd8e3732d097f2777edd953760ce288e2370fb8a8bb4803c0f8f29dca40/ed79025f8bea018c8925f43b6304a27e462335b6ec5e6f8a222c2726153844b3?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27v2_lora_PanLeft.ckpt%3B+filename%3D%22v2_lora_PanLeft.ckpt%22%3B&Expires=1708508293&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwODUwODI5M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy84MC9hOS84MGE5ZWZkOGUzNzMyZDA5N2YyNzc3ZWRkOTUzNzYwY2UyODhlMjM3MGZiOGE4YmI0ODAzYzBmOGYyOWRjYTQwL2VkNzkwMjVmOGJlYTAxOGM4OTI1ZjQzYjYzMDRhMjdlNDYyMzM1YjZlYzVlNmY4YTIyMmMyNzI2MTUzODQ0YjM%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=hUfa7uoUXIP7krASnqFPXTHdK1wYjPVbinIKCFXSTrH9Lay2tKR8qNLMBMjdNUwedTbe1LvhKSwJlK0JnYZOSJb7ao2xRCncb60%7ELX14jrST5fmw7tHPoe7A97qnkL4Pqu9FpwXCoN6wcAbaTtvIZ7OfdcAzL9XghnUe5nl8bsG6ehfQKRNSEwQwsULb4C12C1JOcynkBoZHEhpiO5%7E2PlQHsU73yijvc-wAKSmS%7Ei1%7EpKF2gQzqB67MQISkEmruX2CR%7E80O%7E1RMAATEcx0-OmHb4SRZ7hMCbN88EqNk0GtdCfh2N0non36ET0JX6twgbehMc6vcmJEamd%7EPxZWDmQ__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/animatediff_motion_lora/v2_lora_PanLeft.ckpt
+[2024-02-18 19:33] 100%|████████████████████████████████████████████████████████████████████| 77474499/77474499 [00:10<00:00, 7264616.70it/s]
+[2024-02-18 19:33] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-02-18 19:34] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-02-18 19:34] Install model 'CiaraRowles/TemporalNet2' into '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/controlnet/temporalnetversion2.safetensors'
+[2024-02-18 19:34] Downloading https://cdn-lfs.huggingface.co/repos/05/2c/052c541112a68134164fa49235f05684277b689e382e19213ef5e4d8043ae7dd/36b26b559614076434165a74ef19e7652bd582d36ccc315cbd1ca4b10a7e7d55?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27temporalnetversion2.safetensors%3B+filename%3D%22temporalnetversion2.safetensors%22%3B&Expires=1708511693&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwODUxMTY5M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wNS8yYy8wNTJjNTQxMTEyYTY4MTM0MTY0ZmE0OTIzNWYwNTY4NDI3N2I2ODllMzgyZTE5MjEzZWY1ZTRkODA0M2FlN2RkLzM2YjI2YjU1OTYxNDA3NjQzNDE2NWE3NGVmMTllNzY1MmJkNTgyZDM2Y2NjMzE1Y2JkMWNhNGIxMGE3ZTdkNTU%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=UkBU1-EAHbJOzWi95Ly6NF1LPfx6ldOl-mfPU0DyFW61No27HL80LpDZiTck5mT9ZJ-e2zoeuff%7E%7EOa7iRt9xIb8pSB9wCL61Aa5epxPXJap-%7EdWl1xGvxYRGSPqjxI%7EuNE6dWL70i2pDkk1U-1vIRf93VY-1svA4zCXEnkDpHFaLqZKHLYqCmi8%7E1iCSM7riMdTOqLwreW7l1zeHzpGFqenC5awb1iCvx22FOYbrgRcQoQoBblqbBhsVPXbm2UWsynBj426hu94wawf-aX1MgZKS6KvME6M5Pt43pOlWj5nbpS6Y1rwTdx94raKxuSKY-jsVBcj0l65VTrg5igs7g__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/controlnet/temporalnetversion2.safetensors
+[2024-02-18 19:45] 100%|██████████████████████████████████████████████████████████████▋| 5682626560/5710312396 [10:10<00:02, 10150915.54it/s]100%|███████████████████████████████████████████████████████████████▋| 5683707904/5710312396 [10:10<00:02, 9628439.74it/s]100%|██████████████████████████████████████████████████████████████▋| 5684887552/5710312396 [10:10<00:02, 10145659.75it/s]100%|███████████████████████████████████████████████████████████████▋| 5685968896/5710312396 [10:10<00:02, 8895296.34it/s]100%|███████████████████████████████████████████████████████████████▋| 5686919168/5710312396 [10:11<00:02, 8632239.05it/s]100%|███████████████████████████████████████████████████████████████▊| 5688033280/5710312396 [10:11<00:03, 7372580.59it/s]100%|██████████████████████████████████████████████████████████████▊| 5690327040/5710312396 [10:11<00:01, 10831969.02it/s]100%|██████████████████████████████████████████████████████████████▊| 5691572224/5710312396 [10:11<00:01, 10435139.79it/s]100%|███████████████████████████████████████████████████████████████▊| 5692751872/5710312396 [10:11<00:01, 9485441.48it/s]100%|██████████████████████████████████████████████████████████████▊| 5694095360/5710312396 [10:11<00:01, 10369676.25it/s]100%|███████████████████████████████████████████████████████████████▊| 5695242240/5710312396 [10:11<00:01, 9946774.49it/s]100%|███████████████████████████████████████████████████████████████▊| 5696323584/5710312396 [10:11<00:01, 9733883.08it/s]100%|███████████████████████████████████████████████████████████████▊| 5697339392/5710312396 [10:12<00:01, 9665071.44it/s]100%|███████████████████████████████████████████████████████████████▊| 5698355200/5710312396 [10:12<00:01, 9699662.30it/s]100%|███████████████████████████████████████████████████████████████▉| 5699371008/5710312396 [10:12<00:01, 9141703.14it/s]100%|███████████████████████████████████████████████████████████████▉| 5700321280/5710312396 [10:12<00:01, 7589290.30it/s]100%|███████████████████████████████████████████████████████████████▉| 5702123520/5710312396 [10:12<00:00, 9998597.47it/s]100%|███████████████████████████████████████████████████████████████▉| 5703237632/5710312396 [10:12<00:00, 9784260.27it/s]100%|███████████████████████████████████████████████████████████████▉| 5704286208/5710312396 [10:12<00:00, 9857048.86it/s]100%|███████████████████████████████████████████████████████████████▉| 5705334784/5710312396 [10:12<00:00, 9675350.80it/s]100%|███████████████████████████████████████████████████████████████▉| 5706350592/5710312396 [10:13<00:00, 8239900.09it/s]100%|██████████████████████████████████████████████████████████████▉| 5707956224/5710312396 [10:13<00:00, 10129859.49it/s]100%|███████████████████████████████████████████████████████████████▉| 5709070336/5710312396 [10:13<00:00, 9685921.55it/s]100%|██████████████████████████████████████████████████████████████▉| 5710217216/5710312396 [10:13<00:00, 10134841.04it/s]100%|████████████████████████████████████████████████████████████████| 5710312396/5710312396 [10:13<00:00, 9308865.76it/s]
+[2024-02-18 19:45] Exception in callback RequestHandler.connection_made(<_SelectorSoc...e, bufsize=0>>)
+handle: <Handle RequestHandler.connection_made(<_SelectorSoc...e, bufsize=0>>)>
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 287, in connection_made
+    tcp_keepalive(real_transport)
+  File "/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages/aiohttp/tcp_helpers.py", line 16, in tcp_keepalive
+    sock.setsockopt(socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1)
+  File "/opt/homebrew/Cellar/python@3.11/3.11.7_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/trsock.py", line 74, in setsockopt
+    self._sock.setsockopt(*args, **kwargs)
+OSError: [Errno 22] Invalid argument
+[2024-02-18 20:10] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-02-18 20:14] Install model 'pfg-wd15beta2-n10.pt' into '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/pfg-ComfyUI/models/pfg-wd15beta2-n10.pt'
+[2024-02-18 20:20] 
+Stopped server

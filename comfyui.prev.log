@@ -1,0 +1,299 @@
+** ComfyUI startup time: 2024-02-18 21:48:02.534175
+[2024-02-18 21:48] ** Platform: Darwin
+[2024-02-18 21:48] ** Python version: 3.11.7 (main, Dec  4 2023, 18:10:11) [Clang 15.0.0 (clang-1500.1.0.2.5)]
+[2024-02-18 21:48] ** Python executable: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python
+[2024-02-18 21:48] ** Log path: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/comfyui.log
+[2024-02-18 21:48] 
+Prestartup times for custom nodes:
+[2024-02-18 21:48]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-02-18 21:48] 
+[2024-02-18 21:48] Total VRAM 32768 MB, total RAM 32768 MB
+[2024-02-18 21:48] Set vram state to: SHARED
+[2024-02-18 21:48] Device: mps
+[2024-02-18 21:48] VAE dtype: torch.float32
+[2024-02-18 21:48] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-02-18 21:48] ### Loading: ComfyUI-Manager (V2.7.2)
+[2024-02-18 21:48] ### ComfyUI Revision: 1973 [7f89cb48] | Released on '2024-02-14'
+[2024-02-18 21:48] Total VRAM 32768 MB, total RAM 32768 MB
+[2024-02-18 21:48] Set vram state to: SHARED
+[2024-02-18 21:48] Device: mps
+[2024-02-18 21:48] VAE dtype: torch.float32
+[2024-02-18 21:48] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.4.1-b9 in ComfyUI[0m
+[2024-02-18 21:48] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-02-18 21:48] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-02-18 21:48] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-02-18 21:48] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-02-18 21:48] Torch version: 2.2.0
+[2024-02-18 21:48] [34mWAS Node Suite: [0mBlenderNeko's Advanced CLIP Text Encode found, attempting to enable `CLIPTextEncode` support.[0m
+[2024-02-18 21:48] [34mWAS Node Suite: [0m`CLIPTextEncode (BlenderNeko Advanced + NSP)` node enabled under `WAS Suite/Conditioning` menu.[0m
+[2024-02-18 21:48] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-02-18 21:48] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-02-18 21:48] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m212[0m [32mnodes successfully.[0m
+[2024-02-18 21:48] 
+	[3m[93m"The artist's world is limitless. It can be found anywhere, far from where he lives or a few feet away. It is always on his doorstep."[0m[3m - Paul Strand[0m
+[2024-02-18 21:48] 
+[2024-02-18 21:48] Traceback (most recent call last):
+  File "/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/nodes.py", line 1893, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/pfg-ComfyUI/__init__.py'
+[2024-02-18 21:48] 
+[2024-02-18 21:48] Cannot import /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/pfg-ComfyUI module for custom nodes: [Errno 2] No such file or directory: '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/pfg-ComfyUI/__init__.py'
+[36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-02-18 21:48] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-02-18 21:48] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-02-18 21:48] DWPose: Onnxruntime with acceleration providers detected
+[2024-02-18 21:48] Current version of packaging: 23.2
+[2024-02-18 21:48] Version of cpuinfo: Version information not found
+[2024-02-18 21:48] Current version of git: 3.1.42
+[2024-02-18 21:48] Current version of moviepy: 1.0.3
+[2024-02-18 21:48] Current version of cv2: 4.7.0
+[2024-02-18 21:48] Current version of skbuild: 0.17.6
+[2024-02-18 21:48] Version of typing: Version information not found
+[2024-02-18 21:48] Current version of diskcache: 5.6.3
+[2024-02-18 21:48] Current version of llama_cpp: 0.2.44
+[2024-02-18 21:48] Current version of timm: 0.9.12
+[2024-02-18 21:48] timm is already up-to-date with version 0.9.12
+[2024-02-18 21:48] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-02-18 21:48] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-02-18 21:48] 
+Import times for custom nodes:
+[2024-02-18 21:48]    0.0 seconds (IMPORT FAILED): /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/pfg-ComfyUI
+[2024-02-18 21:48]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI_ADV_CLIP_emb
+[2024-02-18 21:48]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-02-18 21:48]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-02-18 21:48]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/comfyui-animatediff
+[2024-02-18 21:48]    0.0 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+[2024-02-18 21:48]    0.1 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-02-18 21:48]    0.1 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-AudioReactor
+[2024-02-18 21:48]    0.2 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-02-18 21:48]    0.4 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI_FizzNodes
+[2024-02-18 21:48]    0.5 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-02-18 21:48]    0.8 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-02-18 21:48]    1.2 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-N-Nodes
+[2024-02-18 21:48]    1.3 seconds: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/comfyui-reactor-node
+[2024-02-18 21:48] 
+[2024-02-18 21:48] Starting server
+[2024-02-18 21:48] 
+[2024-02-18 21:48] To see the GUI go to: http://127.0.0.1:8188
+[2024-02-18 22:03] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-02-18 22:07] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-02-18 22:07] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-02-18 22:08] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-02-18 22:08] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-02-18 22:08] Install custom node 'ComfyUI Impact Pack'
+[2024-02-18 22:08] install: ['https://github.com/ltdrdata/ComfyUI-Impact-Pack']
+[2024-02-18 22:08] Download: git clone 'https://github.com/ltdrdata/ComfyUI-Impact-Pack'
+[2024-02-18 22:08] 0it [00:00, ?it/s]100%|███████████████████████████████████████████████████████████████████████████| 1176.0/1176.0 [00:00<00:00, 1358.80it/s]100%|███████████████████████████████████████████████████████████████████████████| 1176.0/1176.0 [00:00<00:00, 1358.29it/s]100%|██████████████████████████████████████████████████████████████████████████████| 352.0/352.0 [00:00<00:00, 401.40it/s]100%|██████████████████████████████████████████████████████████████████████████████| 352.0/352.0 [00:00<00:00, 401.32it/s]100%|████████████████████████████████████████████████████████████████████████████| 3633.0/3633.0 [00:04<00:00, 730.22it/s]100%|████████████████████████████████████████████████████████████████████████████| 3633.0/3633.0 [00:04<00:00, 730.19it/s]100%|████████████████████████████████████████████████████████████████████████████| 2414.0/2414.0 [00:05<00:00, 481.72it/s]100%|████████████████████████████████████████████████████████████████████████████| 2414.0/2414.0 [00:05<00:00, 481.71it/s]100%|████████████████████████████████████████████████████████████████████████████| 2414.0/2414.0 [00:05<00:00, 474.28it/s]
+[2024-02-18 22:08] Install: pip packages
+[2024-02-18 22:08] 
+## ComfyUI-Manager: EXECUTE => ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', 'segment-anything']
+[2024-02-18 22:08]  Collecting segment-anything
+[2024-02-18 22:08]    Downloading segment_anything-1.0-py3-none-any.whl.metadata (487 bytes)
+[2024-02-18 22:08]  Downloading segment_anything-1.0-py3-none-any.whl (36 kB)
+[2024-02-18 22:08]  Installing collected packages: segment-anything
+[2024-02-18 22:08]  Successfully installed segment-anything-1.0
+[2024-02-18 22:08] 
+## ComfyUI-Manager: EXECUTE => ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', 'scikit-image']
+[2024-02-18 22:08]  Requirement already satisfied: scikit-image in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (0.20.0)
+[2024-02-18 22:08]  Requirement already satisfied: numpy>=1.21.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (1.24.4)
+[2024-02-18 22:08]  Requirement already satisfied: scipy>=1.8 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (1.12.0)
+[2024-02-18 22:08]  Requirement already satisfied: networkx>=2.8 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (3.2.1)
+[2024-02-18 22:08]  Requirement already satisfied: pillow>=9.0.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (9.5.0)
+[2024-02-18 22:08]  Requirement already satisfied: imageio>=2.4.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (2.34.0)
+[2024-02-18 22:08]  Requirement already satisfied: tifffile>=2019.7.26 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (2024.2.12)
+[2024-02-18 22:08]  Requirement already satisfied: PyWavelets>=1.1.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (1.5.0)
+[2024-02-18 22:08]  Requirement already satisfied: packaging>=20.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (23.2)
+[2024-02-18 22:08]  Requirement already satisfied: lazy_loader>=0.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from scikit-image) (0.3)
+[2024-02-18 22:08] 
+## ComfyUI-Manager: EXECUTE => ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', 'piexif']
+[2024-02-18 22:08]  Collecting piexif
+[2024-02-18 22:08]    Downloading piexif-1.1.3-py2.py3-none-any.whl (20 kB)
+[2024-02-18 22:08]  Installing collected packages: piexif
+[2024-02-18 22:08]  Successfully installed piexif-1.1.3
+[2024-02-18 22:08] 
+## ComfyUI-Manager: EXECUTE => ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', 'transformers']
+[2024-02-18 22:08]  Requirement already satisfied: transformers in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (4.26.1)
+[2024-02-18 22:08]  Requirement already satisfied: filelock in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (3.13.1)
+[2024-02-18 22:08]  Requirement already satisfied: huggingface-hub<1.0,>=0.11.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (0.20.3)
+[2024-02-18 22:08]  Requirement already satisfied: numpy>=1.17 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (1.24.4)
+[2024-02-18 22:08]  Requirement already satisfied: packaging>=20.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (23.2)
+[2024-02-18 22:08]  Requirement already satisfied: pyyaml>=5.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (6.0.1)
+[2024-02-18 22:08]  Requirement already satisfied: regex!=2019.12.17 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (2023.12.25)
+[2024-02-18 22:08]  Requirement already satisfied: requests in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (2.31.0)
+[2024-02-18 22:08]  Requirement already satisfied: tokenizers!=0.11.3,<0.14,>=0.11.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (0.13.3)
+[2024-02-18 22:08]  Requirement already satisfied: tqdm>=4.27 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from transformers) (4.66.2)
+[2024-02-18 22:08]  Requirement already satisfied: fsspec>=2023.5.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from huggingface-hub<1.0,>=0.11.0->transformers) (2024.2.0)
+[2024-02-18 22:08]  Requirement already satisfied: typing-extensions>=3.7.4.3 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from huggingface-hub<1.0,>=0.11.0->transformers) (4.9.0)
+[2024-02-18 22:08]  Requirement already satisfied: charset-normalizer<4,>=2 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests->transformers) (3.3.2)
+[2024-02-18 22:08]  Requirement already satisfied: idna<4,>=2.5 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests->transformers) (3.6)
+[2024-02-18 22:08]  Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests->transformers) (1.26.18)
+[2024-02-18 22:08]  Requirement already satisfied: certifi>=2017.4.17 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests->transformers) (2024.2.2)
+[2024-02-18 22:08] 
+## ComfyUI-Manager: EXECUTE => ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', 'opencv-python-headless']
+[2024-02-18 22:08]  Requirement already satisfied: opencv-python-headless in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (4.7.0.72)
+[2024-02-18 22:08]  Requirement already satisfied: numpy>=1.21.2 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from opencv-python-headless) (1.24.4)
+[2024-02-18 22:08] 
+## ComfyUI-Manager: EXECUTE => ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', 'GitPython']
+[2024-02-18 22:08]  Requirement already satisfied: GitPython in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (3.1.42)
+[2024-02-18 22:08]  Requirement already satisfied: gitdb<5,>=4.0.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from GitPython) (4.0.11)
+[2024-02-18 22:08]  Requirement already satisfied: smmap<6,>=3.0.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from gitdb<5,>=4.0.1->GitPython) (5.0.1)
+[2024-02-18 22:08] Install: install script
+[2024-02-18 22:08] 
+## ComfyUI-Manager: EXECUTE => ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', 'install.py']
+[2024-02-18 22:08] [!] 
+[2024-02-18 22:08] 100%|██████████| 51996128/51996128 [00:05<00:00, 9932297.93it/s]
+[2024-02-18 22:08] [!] 
+[2024-02-18 22:08] 100%|██████████| 22484536/22484536 [00:02<00:00, 10053506.63it/s]
+[2024-02-18 22:08] [!] 
+[2024-02-18 22:08] 100%|██████████| 54791722/54791722 [00:05<00:00, 10253812.81it/s]
+[2024-02-18 22:09] [2024-02-18 22:09]  ### ComfyUI-Impact-Pack: Check dependencies
+[2024-02-18 22:09]  ### ComfyUI-Impact-Pack: Updating subpack
+[2024-02-18 22:09]  [Impact Pack] EXECUTE: ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', 'install.py'] in '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-02-18 22:09]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/e3893a92c5c1907136b6cc75404094db767c1e0cfefe1b43e87dad72af2e4c9f?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27face_yolov8m.pt%3B+filename%3D%22face_yolov8m.pt%22%3B&Expires=1708517700&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwODUxNzcwMH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlL2UzODkzYTkyYzVjMTkwNzEzNmI2Y2M3NTQwNDA5NGRiNzY3YzFlMGNmZWZlMWI0M2U4N2RhZDcyYWYyZTRjOWY%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=nfh2kz%7Etj51HeA97kZntM%7EyiSvZfstpHdcr3I50np2wbQQ2rpg7cTPzzyktlhp3NIFt1YPZUi-7dKLdCptPnSgPknfyXDEENQrKh2HhMw0NMZJgRw9geuzbUmXODilUKzLmFgN5acgn5XYqS1teFZ-JYE%7E%7ExecbaTQehII%7EIiFJSlm-Z066faaJSd7Y2GN7%7Eb%7EXWxMVf%7EfJT5ZG6nSe6xCAZzBLArTWya0vKiJA9edEUomfKywx5%7ECvhRfFXThL5tCDLFn2f0lkHWYCJD51a5huRO88f0SBEOksWFrozpZdm4sX7XcaXIz5oP1rRKqTDVr%7EMKnvCcSRtrDtIK0R-FA__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/ultralytics/bbox/face_yolov8m.pt
+[2024-02-18 22:09]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/30878cea9870964d4a238339e9dcff002078bbbaa1a058b07e11c167f67eca1c?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27hand_yolov8s.pt%3B+filename%3D%22hand_yolov8s.pt%22%3B&Expires=1708520936&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwODUyMDkzNn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlLzMwODc4Y2VhOTg3MDk2NGQ0YTIzODMzOWU5ZGNmZjAwMjA3OGJiYmFhMWEwNThiMDdlMTFjMTY3ZjY3ZWNhMWM%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=HqoazQwMZP4XRlccodgFGfk3Oqflg50XNB0rgtIkc4XtQ0Rhfqik8qN0tiGyU2LzUBwUZzFvOOqe6dYr9N8hcV2EOTPnRpeBKXDciZ9f%7EoEoRiWg3PdYQJwqBFzg9ITo8zw1dgAbJB3MIoXdarTFlLbl1SBF4oSQHJPGCTpaK6MZ9RturTGbU2mr8J4%7EEpaT2-nw-ZgApZFSGihPtmj-56iUHaw4LLC1DvtbrL0nywjS7Bj8eWkxgiqQ5xCI75OP9yBDLBSexTiAUzDuJdYZ7QNoUQ1qdQ5ARzucuAF6DBXa%7E-qOb3%7EMhQPiOoLNrWo2P39HXyfHV7ycE-lE25c3Tw__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/ultralytics/bbox/hand_yolov8s.pt
+[2024-02-18 22:09]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/1fd7e562f240a5debd48bf737753de6fb60c63f8664121bb522f090a885d8254?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27person_yolov8m-seg.pt%3B+filename%3D%22person_yolov8m-seg.pt%22%3B&Expires=1708517763&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwODUxNzc2M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlLzFmZDdlNTYyZjI0MGE1ZGViZDQ4YmY3Mzc3NTNkZTZmYjYwYzYzZjg2NjQxMjFiYjUyMmYwOTBhODg1ZDgyNTQ%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=ol2TOf85NmfRICINh3iLMCeAfRQya4RSV%7EUAeaVDioEtK0cFzEdqrrxFAkp3KfqYCA3TbGzvAAUE3c3mH9iXbWK7GrETaNTQSpu0oVKY0un7QKaNSG7WyrUJZJ7pe-leKPplfi28-Lu1e5W8UL8ZDD2tdaAPRrsxY9vXctJvETHzy5VceOfwe%7Eq31tXr4CX12CpuA-xLQiP0d9MnympOVo40I%7ECPuXZgPZ0yO2DxZtQsl9yTlUBoUk%7ElA7kc16MiGQxRjnbcOSWWj7U2-jC5Jb%7EckvtUBJ9hbBifZdvto-%7ExmU9l3khohsWNNQeP2sE902keiqVUFxepTMKurXAyCA__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/ultralytics/segm/person_yolov8m-seg.pt
+[!][2024-02-18 22:09]   req_path: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+
+[2024-02-18 22:09] [2024-02-18 22:09]  [Impact Pack] EXECUTE: ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', '-r', 'requirements.txt'] in '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-02-18 22:09]  Collecting ultralytics!=8.0.177 (from -r requirements.txt (line 1))
+[2024-02-18 22:09]    Downloading ultralytics-8.1.15-py3-none-any.whl.metadata (40 kB)
+[2024-02-18 22:09]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.4/40.4 kB 615.7 kB/s eta 0:00:00
+[2024-02-18 22:09]  Requirement already satisfied: matplotlib>=3.3.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.8.3)
+[2024-02-18 22:09]  Requirement already satisfied: opencv-python>=4.6.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (4.9.0.80)
+[2024-02-18 22:09]  Requirement already satisfied: pillow>=7.1.2 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (9.5.0)
+[2024-02-18 22:09]  Requirement already satisfied: pyyaml>=5.3.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (6.0.1)
+[2024-02-18 22:09]  Requirement already satisfied: requests>=2.23.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.31.0)
+[2024-02-18 22:09]  Requirement already satisfied: scipy>=1.4.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.12.0)
+[2024-02-18 22:09]  Requirement already satisfied: torch>=1.8.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: torchvision>=0.9.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (0.17.0)
+[2024-02-18 22:09]  Requirement already satisfied: tqdm>=4.64.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (4.66.2)
+[2024-02-18 22:09]  Requirement already satisfied: psutil in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (5.9.8)
+[2024-02-18 22:09]  Requirement already satisfied: py-cpuinfo in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (9.0.0)
+[2024-02-18 22:09]  Collecting thop>=0.1.1 (from ultralytics!=8.0.177->-r requirements.txt (line 1))
+[2024-02-18 22:09]    Downloading thop-0.1.1.post2209072238-py3-none-any.whl (15 kB)
+[2024-02-18 22:09]  Requirement already satisfied: pandas>=1.1.4 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.2.0)
+[2024-02-18 22:09]  Collecting seaborn>=0.11.0 (from ultralytics!=8.0.177->-r requirements.txt (line 1))
+[2024-02-18 22:09]    Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+[2024-02-18 22:09]  Requirement already satisfied: contourpy>=1.0.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: cycler>=0.10 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (0.12.1)
+[2024-02-18 22:09]  Requirement already satisfied: fonttools>=4.22.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (4.49.0)
+[2024-02-18 22:09]  Requirement already satisfied: kiwisolver>=1.3.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.4.5)
+[2024-02-18 22:09]  Requirement already satisfied: numpy<2,>=1.21 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.24.4)
+[2024-02-18 22:09]  Requirement already satisfied: packaging>=20.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (23.2)
+[2024-02-18 22:09]  Requirement already satisfied: pyparsing>=2.3.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.1.1)
+[2024-02-18 22:09]  Requirement already satisfied: python-dateutil>=2.7 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.8.2)
+[2024-02-18 22:09]  Requirement already satisfied: pytz>=2020.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from pandas>=1.1.4->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2024.1)
+[2024-02-18 22:09]  Requirement already satisfied: tzdata>=2022.7 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from pandas>=1.1.4->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2024.1)
+[2024-02-18 22:09]  Requirement already satisfied: charset-normalizer<4,>=2 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.3.2)
+[2024-02-18 22:09]  Requirement already satisfied: idna<4,>=2.5 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.6)
+[2024-02-18 22:09]  Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.26.18)
+[2024-02-18 22:09]  Requirement already satisfied: certifi>=2017.4.17 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2024.2.2)
+[2024-02-18 22:09]  Requirement already satisfied: filelock in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.13.1)
+[2024-02-18 22:09]  Requirement already satisfied: typing-extensions>=4.8.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (4.9.0)
+[2024-02-18 22:09]  Requirement already satisfied: sympy in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.12)
+[2024-02-18 22:09]  Requirement already satisfied: networkx in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.2.1)
+[2024-02-18 22:09]  Requirement already satisfied: jinja2 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.1.3)
+[2024-02-18 22:09]  Requirement already satisfied: fsspec in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2024.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: six>=1.5 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.16.0)
+[2024-02-18 22:09]  Requirement already satisfied: MarkupSafe>=2.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from jinja2->torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.1.5)
+[2024-02-18 22:09]  Requirement already satisfied: mpmath>=0.19 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from sympy->torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.3.0)
+[2024-02-18 22:09]  Downloading ultralytics-8.1.15-py3-none-any.whl (715 kB)
+[2024-02-18 22:09]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 715.1/715.1 kB 2.0 MB/s eta 0:00:00
+[2024-02-18 22:09]  Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+[2024-02-18 22:09]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.9/294.9 kB 7.1 MB/s eta 0:00:00
+[2024-02-18 22:09]  Installing collected packages: thop, seaborn, ultralytics
+[2024-02-18 22:09]  Successfully installed seaborn-0.13.2 thop-0.1.1.post2209072238 ultralytics-8.1.15
+[2024-02-18 22:09]  req_path: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-02-18 22:09]  [Impact Pack] EXECUTE: ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', '-r', 'requirements.txt'] in '/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-02-18 22:09]  Requirement already satisfied: ultralytics!=8.0.177 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from -r requirements.txt (line 1)) (8.1.15)
+[2024-02-18 22:09]  Requirement already satisfied: matplotlib>=3.3.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.8.3)
+[2024-02-18 22:09]  Requirement already satisfied: opencv-python>=4.6.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (4.9.0.80)
+[2024-02-18 22:09]  Requirement already satisfied: pillow>=7.1.2 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (9.5.0)
+[2024-02-18 22:09]  Requirement already satisfied: pyyaml>=5.3.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (6.0.1)
+[2024-02-18 22:09]  Requirement already satisfied: requests>=2.23.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.31.0)
+[2024-02-18 22:09]  Requirement already satisfied: scipy>=1.4.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.12.0)
+[2024-02-18 22:09]  Requirement already satisfied: torch>=1.8.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: torchvision>=0.9.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (0.17.0)
+[2024-02-18 22:09]  Requirement already satisfied: tqdm>=4.64.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (4.66.2)
+[2024-02-18 22:09]  Requirement already satisfied: psutil in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (5.9.8)
+[2024-02-18 22:09]  Requirement already satisfied: py-cpuinfo in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (9.0.0)
+[2024-02-18 22:09]  Requirement already satisfied: thop>=0.1.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (0.1.1.post2209072238)
+[2024-02-18 22:09]  Requirement already satisfied: pandas>=1.1.4 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: seaborn>=0.11.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from ultralytics!=8.0.177->-r requirements.txt (line 1)) (0.13.2)
+[2024-02-18 22:09]  Requirement already satisfied: contourpy>=1.0.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: cycler>=0.10 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (0.12.1)
+[2024-02-18 22:09]  Requirement already satisfied: fonttools>=4.22.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (4.49.0)
+[2024-02-18 22:09]  Requirement already satisfied: kiwisolver>=1.3.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.4.5)
+[2024-02-18 22:09]  Requirement already satisfied: numpy<2,>=1.21 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.24.4)
+[2024-02-18 22:09]  Requirement already satisfied: packaging>=20.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (23.2)
+[2024-02-18 22:09]  Requirement already satisfied: pyparsing>=2.3.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.1.1)
+[2024-02-18 22:09]  Requirement already satisfied: python-dateutil>=2.7 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.8.2)
+[2024-02-18 22:09]  Requirement already satisfied: pytz>=2020.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from pandas>=1.1.4->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2024.1)
+[2024-02-18 22:09]  Requirement already satisfied: tzdata>=2022.7 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from pandas>=1.1.4->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2024.1)
+[2024-02-18 22:09]  Requirement already satisfied: charset-normalizer<4,>=2 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.3.2)
+[2024-02-18 22:09]  Requirement already satisfied: idna<4,>=2.5 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.6)
+[2024-02-18 22:09]  Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.26.18)
+[2024-02-18 22:09]  Requirement already satisfied: certifi>=2017.4.17 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2024.2.2)
+[2024-02-18 22:09]  Requirement already satisfied: filelock in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.13.1)
+[2024-02-18 22:09]  Requirement already satisfied: typing-extensions>=4.8.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (4.9.0)
+[2024-02-18 22:09]  Requirement already satisfied: sympy in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.12)
+[2024-02-18 22:09]  Requirement already satisfied: networkx in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.2.1)
+[2024-02-18 22:09]  Requirement already satisfied: jinja2 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (3.1.3)
+[2024-02-18 22:09]  Requirement already satisfied: fsspec in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2024.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: six>=1.5 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib>=3.3.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.16.0)
+[2024-02-18 22:09]  Requirement already satisfied: MarkupSafe>=2.0 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from jinja2->torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (2.1.5)
+[2024-02-18 22:09]  Requirement already satisfied: mpmath>=0.19 in /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/lib/python3.11/site-packages (from sympy->torch>=1.8.0->ultralytics!=8.0.177->-r requirements.txt (line 1)) (1.3.0)
+[2024-02-18 22:09]  req_path: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/requirements.txt
+[2024-02-18 22:09]  ### ComfyUI-Impact-Pack: Check basic models
+[2024-02-18 22:09]  Downloading https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth to /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/sams/sam_vit_b_01ec64.pth
+[2024-02-18 22:09] 100%|█████████▉| 373850112/375042383 [00:41<00:00, 6651316.36it/s]
+[2024-02-18 22:09] 100%|█████████▉| 374571008/375042383 [00:41<00:00, 6282891.26it/s]
+[2024-02-18 22:09] 100%|██████████| 375042383/375042383 [00:41<00:00, 9027499.95it/s]
+[2024-02-18 22:09]  ### ComfyUI-Impact-Pack: onnx model directory created (/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/models/onnx)
+[2024-02-18 22:09] Installation was successful.
+[2024-02-18 22:09] 
+## ComfyUI-Manager: EXECUTE => ['/Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/venv/bin/python', '-m', 'pip', 'install', 'ultralytics']
+[2024-02-18 22:09]  Requirement already satisfied: ultralytics in ./venv/lib/python3.11/site-packages (8.1.15)
+[2024-02-18 22:09]  Requirement already satisfied: matplotlib>=3.3.0 in ./venv/lib/python3.11/site-packages (from ultralytics) (3.8.3)
+[2024-02-18 22:09]  Requirement already satisfied: opencv-python>=4.6.0 in ./venv/lib/python3.11/site-packages (from ultralytics) (4.9.0.80)
+[2024-02-18 22:09]  Requirement already satisfied: pillow>=7.1.2 in ./venv/lib/python3.11/site-packages (from ultralytics) (9.5.0)
+[2024-02-18 22:09]  Requirement already satisfied: pyyaml>=5.3.1 in ./venv/lib/python3.11/site-packages (from ultralytics) (6.0.1)
+[2024-02-18 22:09]  Requirement already satisfied: requests>=2.23.0 in ./venv/lib/python3.11/site-packages (from ultralytics) (2.31.0)
+[2024-02-18 22:09]  Requirement already satisfied: scipy>=1.4.1 in ./venv/lib/python3.11/site-packages (from ultralytics) (1.12.0)
+[2024-02-18 22:09]  Requirement already satisfied: torch>=1.8.0 in ./venv/lib/python3.11/site-packages (from ultralytics) (2.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: torchvision>=0.9.0 in ./venv/lib/python3.11/site-packages (from ultralytics) (0.17.0)
+[2024-02-18 22:09]  Requirement already satisfied: tqdm>=4.64.0 in ./venv/lib/python3.11/site-packages (from ultralytics) (4.66.2)
+[2024-02-18 22:09]  Requirement already satisfied: psutil in ./venv/lib/python3.11/site-packages (from ultralytics) (5.9.8)
+[2024-02-18 22:09]  Requirement already satisfied: py-cpuinfo in ./venv/lib/python3.11/site-packages (from ultralytics) (9.0.0)
+[2024-02-18 22:09]  Requirement already satisfied: thop>=0.1.1 in ./venv/lib/python3.11/site-packages (from ultralytics) (0.1.1.post2209072238)
+[2024-02-18 22:09]  Requirement already satisfied: pandas>=1.1.4 in ./venv/lib/python3.11/site-packages (from ultralytics) (2.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: seaborn>=0.11.0 in ./venv/lib/python3.11/site-packages (from ultralytics) (0.13.2)
+[2024-02-18 22:09]  Requirement already satisfied: contourpy>=1.0.1 in ./venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics) (1.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: cycler>=0.10 in ./venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics) (0.12.1)
+[2024-02-18 22:09]  Requirement already satisfied: fonttools>=4.22.0 in ./venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics) (4.49.0)
+[2024-02-18 22:09]  Requirement already satisfied: kiwisolver>=1.3.1 in ./venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics) (1.4.5)
+[2024-02-18 22:09]  Requirement already satisfied: numpy<2,>=1.21 in ./venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics) (1.24.4)
+[2024-02-18 22:09]  Requirement already satisfied: packaging>=20.0 in ./venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics) (23.2)
+[2024-02-18 22:09]  Requirement already satisfied: pyparsing>=2.3.1 in ./venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics) (3.1.1)
+[2024-02-18 22:09]  Requirement already satisfied: python-dateutil>=2.7 in ./venv/lib/python3.11/site-packages (from matplotlib>=3.3.0->ultralytics) (2.8.2)
+[2024-02-18 22:09]  Requirement already satisfied: pytz>=2020.1 in ./venv/lib/python3.11/site-packages (from pandas>=1.1.4->ultralytics) (2024.1)
+[2024-02-18 22:09]  Requirement already satisfied: tzdata>=2022.7 in ./venv/lib/python3.11/site-packages (from pandas>=1.1.4->ultralytics) (2024.1)
+[2024-02-18 22:09]  Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics) (3.3.2)
+[2024-02-18 22:09]  Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics) (3.6)
+[2024-02-18 22:09]  Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics) (1.26.18)
+[2024-02-18 22:09]  Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.11/site-packages (from requests>=2.23.0->ultralytics) (2024.2.2)
+[2024-02-18 22:09]  Requirement already satisfied: filelock in ./venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics) (3.13.1)
+[2024-02-18 22:09]  Requirement already satisfied: typing-extensions>=4.8.0 in ./venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics) (4.9.0)
+[2024-02-18 22:09]  Requirement already satisfied: sympy in ./venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics) (1.12)
+[2024-02-18 22:09]  Requirement already satisfied: networkx in ./venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics) (3.2.1)
+[2024-02-18 22:09]  Requirement already satisfied: jinja2 in ./venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics) (3.1.3)
+[2024-02-18 22:09]  Requirement already satisfied: fsspec in ./venv/lib/python3.11/site-packages (from torch>=1.8.0->ultralytics) (2024.2.0)
+[2024-02-18 22:09]  Requirement already satisfied: six>=1.5 in ./venv/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib>=3.3.0->ultralytics) (1.16.0)
+[2024-02-18 22:09]  Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.11/site-packages (from jinja2->torch>=1.8.0->ultralytics) (2.1.5)
+[2024-02-18 22:09]  Requirement already satisfied: mpmath>=0.19 in ./venv/lib/python3.11/site-packages (from sympy->torch>=1.8.0->ultralytics) (1.3.0)
+[2024-02-18 22:09] After restarting ComfyUI, please refresh the browser.
+[2024-02-18 22:09] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-02-18 22:09] FETCH DATA from: /Users/kunihiko/GProjects/ComfyUIPJ/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
